@@ -2,9 +2,9 @@
 
 ## 📌 Overview
 
-This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline built with Python, Pandas, SQLite, and SQL.
+This project demonstrates an end-to-end **ETL (Extract, Transform, Load)** pipeline using **Python, Pandas, SQLite, and SQL**.
 
-The pipeline extracts raw retail sales data from a CSV file, cleans and transforms it, loads it into a SQLite database, performs business analysis using SQL and Pandas, and generates a sales report.
+The pipeline extracts raw retail sales data from a CSV file, cleans and transforms it, loads it into a SQLite database, performs business analysis using SQL queries, and generates a summary report.
 
 ---
 
@@ -20,7 +20,7 @@ The pipeline extracts raw retail sales data from a CSV file, cleans and transfor
 
 ## 📂 Project Structure
 
-```
+```text
 Retail-Sales-ETL/
 │
 ├── data/
@@ -31,61 +31,58 @@ Retail-Sales-ETL/
 │
 ├── reports/
 │
+├── screenshots/
+│
 ├── sql/
 │
 ├── main.ipynb
-│
 ├── README.md
-│
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
 
 ## 🔄 ETL Workflow
 
+```text
 Raw CSV
-
-↓
-
+   │
+   ▼
 Extract
-
-↓
-
+   │
+   ▼
 Clean & Transform
-
-↓
-
+   │
+   ▼
 Business Analysis
-
-↓
-
+   │
+   ▼
 SQLite Database
-
-↓
-
+   │
+   ▼
 SQL Queries
-
-↓
-
+   │
+   ▼
 Report Generation
+```
 
 ---
 
 ## ✨ Features
 
-- Read raw CSV data
-- Handle missing values
-- Remove duplicates
+- Extract data from CSV
+- Clean missing values
+- Remove duplicate records
 - Transform and enrich data
-- Generate Total Sales
-- Load into SQLite
+- Calculate Total Sales
+- Load data into SQLite
 - Perform SQL analysis
-- Generate sales report
+- Generate business reports
 
 ---
 
-## 📊 Sample Business Analysis
+## 📊 Business Analysis
 
 - Total Revenue
 - Total Orders
@@ -98,29 +95,44 @@ Report Generation
 
 ---
 
+## 📸 Project Preview
+
+### 📄 Raw Dataset
+
+![Raw Dataset](screenshots/raw-data.png)
+
+---
+
+### 🧹 Cleaned Dataset
+
+![Cleaned Dataset](screenshots/cleaned-data.png)
+
+---
+
+### 🗄️ SQL Query Output
+
+![SQL Output](screenshots/sql-output.png)
+
+---
+
+### 📈 Final Report
+
+![Report](screenshots/report.png)
+
+---
+
 ## 🚀 Future Improvements
 
-- PostgreSQL
+- PostgreSQL Integration
 - Apache Airflow
 - Docker
 - Streamlit Dashboard
 - Power BI Dashboard
 
 ---
-## 📸 Project Preview
-
-### Raw Dataset
-![Raw Dataset](screenshots/raw-data.png)
-
-### Cleaned Dataset
-![Cleaned Dataset](screenshots/cleaned-data.png)
-
-### SQL Output
-![SQL Output](screenshots/sql-output.png)
-
-### Report
-![Report](screenshots/report.png)
 
 ## 👩‍💻 Author
 
 **Pratima Sapkota**
+
+Computer Engineering Student | Aspiring Data Engineer

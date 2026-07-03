@@ -1,19 +1,58 @@
-# Retail Sales ETL Pipeline
+# 🛒 Retail Sales ETL Pipeline
 
-## Project Overview
+## 📌 Overview
 
-This project demonstrates a complete ETL (Extract, Transform, Load) pipeline using Python, Pandas, SQLite, and SQL.
+This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline built with Python, Pandas, SQLite, and SQL.
 
-## Workflow
+The pipeline extracts raw retail sales data from a CSV file, cleans and transforms it, loads it into a SQLite database, performs business analysis using SQL and Pandas, and generates a sales report.
 
-CSV
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Pandas
+- SQLite
+- SQL
+- Jupyter Notebook
+
+---
+
+## 📂 Project Structure
+
+```
+Retail-Sales-ETL/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── database/
+│
+├── reports/
+│
+├── sql/
+│
+├── main.ipynb
+│
+├── README.md
+│
+└── requirements.txt
+```
+
+---
+
+## 🔄 ETL Workflow
+
+Raw CSV
+
 ↓
 
 Extract
 
 ↓
 
-Transform
+Clean & Transform
 
 ↓
 
@@ -29,37 +68,46 @@ SQL Queries
 
 ↓
 
-Report
+Report Generation
 
-## Technologies
+---
 
-- Python
-- Pandas
-- SQLite
-- SQL
-- Jupyter Notebook
+## ✨ Features
 
-## Features
-
-- Extract CSV data
-- Clean missing values
+- Read raw CSV data
+- Handle missing values
 - Remove duplicates
-- Transform data
-- Create Total Sales
+- Transform and enrich data
+- Generate Total Sales
 - Load into SQLite
-- SQL Analysis
-- Generate Reports
+- Perform SQL analysis
+- Generate sales report
 
-## Project Structure
+---
 
-Retail-Sales-ETL/
+## 📊 Sample Business Analysis
 
-data/
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Revenue by City
+- Revenue by Category
+- Top Selling Product
+- Top Customer
+- Monthly Revenue
 
-database/
+---
 
-sql/
+## 🚀 Future Improvements
 
-reports/
+- PostgreSQL
+- Apache Airflow
+- Docker
+- Streamlit Dashboard
+- Power BI Dashboard
 
-main.ipynb
+---
+
+## 👩‍💻 Author
+
+**Pratima Sapkota**

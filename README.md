@@ -107,6 +107,19 @@ Report Generation
 - Power BI Dashboard
 
 ---
+## 📸 Project Preview
+
+### Raw Dataset
+![Raw Dataset](screenshots/raw-data.png)
+
+### Cleaned Dataset
+![Cleaned Dataset](screenshots/cleaned-data.png)
+
+### SQL Output
+![SQL Output](screenshots/sql-output.png)
+
+### Report
+![Report](screenshots/report.png)
 
 ## 👩‍💻 Author
 

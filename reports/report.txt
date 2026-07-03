@@ -1,0 +1,20 @@
+
+==================================
+Retail Sales Report
+==================================
+
+Total Orders      : 10
+
+Total Revenue     : $5080.00
+
+Average Order     : $508.00
+
+Top Product       : Mouse
+
+Top Customer      : Sita
+
+Top City          : Pokhara
+
+Top Category      : Electronics
+
+==================================

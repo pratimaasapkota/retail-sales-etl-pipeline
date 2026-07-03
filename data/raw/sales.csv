@@ -1,0 +1,11 @@
+OrderID,Customer,Product,Category,Quantity,Price,City,OrderDate
+1001,Ram,Laptop,Electronics,1,800,Kathmandu,2025-01-02
+1002,Sita,Phone,Electronics,2,500,Pokhara,2025-01-03
+1003,Hari,Mouse,Accessories,,20,Butwal,2025-01-04
+1004,Gita,Laptop,Electronics,1,800,,2025-01-05
+1005,Rita,Keyboard,Accessories,2,50,Kathmandu,2025-01-06
+1006,Sita,Phone,Electronics,2,500,Pokhara,2025-01-03
+1007,Aakash,Monitor,Electronics,1,300,Bharatpur,2025-01-07
+1008,Pooja,Mouse,Accessories,3,20,Lalitpur,2025-01-08
+1009,Kiran,Printer,Electronics,1,200,Kathmandu,2025-01-09
+1010,Ram,Laptop,Electronics,1,800,Kathmandu,2025-01-02
